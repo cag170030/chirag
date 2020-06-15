@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<style>
+div {
+  border: ;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  background-color: white;
+}
+</style>	
+	
+<body>
+
+<h2 align="middle">Ode to Friends</h2>
+   
+	
+<p align="middle">  </p>
+
+<div>	
+	
+<blockquote>
+"'What is this great and pleasing sound that fills my ears?' I asked. 'That,' replied my grandfather, 'is a concord of tones separated by unequal but nevertheless carefully proportioned intervals, caused by the rapid motion of the spheres themselves. The high and low tones blended together produce different harmonies...[The] outermost sphere, the star-bearer, with its swifter motion, gives forth a higher-pithed tone, whereas the lunar sphere, the lowest, has the deepest tone.'"</blockquote>
+<p align="right">-Cicero, <i>De re publica</i></p>	
+
+	 	
+	
+<p align="middle">Songs inspired by some people who are very dear to me.</p>
+
+<p align="middle">  </p>
+
+	
+<h4>1. Anna</h4>
+	
+<h4><audio controls><source src="2 anja.mp3" type="audio/mpeg"></audio></h4>
+
+<p>Root/octave</p>		
+	
+<h4>2. Anja</h4>
+	
+<h4><audio controls><source src="danyseville.mp3" type="audio/mpeg"></audio></h4>
+
+<p>2nd/9th</p>		
+	
+	
+<h4>3. Patricia</h4>
+	
+<h4><audio controls><source src="reggaeG.mp3" type="audio/mpeg"></audio></h4>
+
+<p>Major 3rd/10th</p>	
+				
+	
+	
+<h4>4. Evan</h4>
+	
+<h4><audio controls><source src="05222020.mp3" type="audio/mpeg"></audio></h4>
+
+<p>4th</p>	
+			
+	
+
+<h4>5. Solvay</h4>
+	
+<h4><audio controls><source src="equipoise.mp3" type="audio/mpeg"></audio></h4>
+
+<p>#11</p>	
+		
+	
+<h4>6. Matt</h4>
+	
+<h4><audio controls><source src="amelia.mp3" type="audio/mpeg"></audio></h4>
+
+<p>Major 6th</p>	
+	
+	
+<h4>7. Parker</h4>
+	
+<h4><audio controls><source src="parker.mp3" type="audio/mpeg"></audio></h4>
+
+<p>Major 7th</p>	
+
+</div>	
+	
+</body>
+</html>

@@ -128,6 +128,76 @@ is the current density 4-vector.</p>
 
 
 
+<h3 align="middle">Electromagnetism in the Lorenz Gauge</h3>  
+    
+<p>We reduced Maxwell's four equations to two tensor equations in the above section. We can do better, reducing the two tensor equations to one equation. Recall from electrostatics that
+    
+
+<img src="1EMR.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+
+Also recall Faraday's law:
+
+<img src="2EMR.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+and that the magnetic field is the curl of the magnetic vector potential:
+
+<img src="3EMR.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+
+Substituting (3) into (2),
+
+
+<img src="4EMR.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+Putting together (1) and (4),
+
+<img src="5EMR.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+So we see that the scalar electric potential and the magnetic vector potential entirely describe time-dependent electric and magnetic fields. We can construct a 4-vector:
+
+<img src="6EMR.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+
+I will verify that the field tensor (derived above) can be written as
+
+<img src="7EMR.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+For reference, also recall that the position four-vector is
+
+<img src="posfourvector.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+
+Running the indexes,
+
+
+
+
+
+
+Substituting (7) into the inhomogeneous Maxwell Equation
+
+<img src="homogeneousmaxwellequation.PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+gives
+
+<img src=".PNG" width="177" height="72" style = "display: block; margin-left: auto; margin-right: auto;"/></td> 
+
+
+But in the Lorenz gauge,
+
+
+
+So
+
+
+
+So (8) becomes
+
+
+
+Griffiths calls the above the "most elegant formulation of Maxwell's equations."
+
 <h3 align="middle">Coriolis and Centrifugal Forces</h3>    
     
 <p>The motion in the reference frame of a mass given some initial velocity on a frictionless, flat, surface rotating at <i>&omega;</i> = 1 rad/s, solved numerically. The Coriolis and centrifugal forces are "fictitious" since they arise from applying Newton's laws to a non-inertial frame; in the inertial frame, the mass will travel in a straight line. The equations of motion and <a href="coreolis and centrifugal effects.py" target="_blank" rel="noopener noreferrer">numerical solution</a> for three different initial velocities are shown below.</p> 

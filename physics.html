@@ -31,36 +31,47 @@ div {
 <p><i>Table of Contents</i></p>
 	
 <ul>
-    <li><a href="#Calendar">Calendar</a></li>
-    <li><a href="#Recordings">Recordings & Projects</a></li>
-    <li><a href="#Videos">Videos</a></li>
-    <li><a href="#Friends">Friends</a></li>
+    <li><a href="#Bohr">Bohr Radius</a></li>
+    <li><a href="#emma">Classical Particle in a Cone</a></li>	
+    <li><a href="#Coriolis">Coriolis and Centrifugal Forces</a></li>	
+    <li><a href="#fictitious">Coriolis and Centrifugal Forces in the Plane</a></li>
+    <li><a href="#cycloid">Cycloid Motion</a></li>	
+    <li><a href="#Tensors">Electromagnetic Field and Dual Tensors</a></li>
+    <li><a href="#Emagnotation">Electromagnetism in Tensor Notation</a></li>
+    <li><a href="#Lorenz">Electromagnetism in the Lorenz Gauge</a></li>
+    <li><a href="#IntelliChoice">IntelliChoice 2020 Math Camp</a></li>
+    <li><a href="#musicalastronomy">Musical Astronomy</a></li>	
+    <li><a href="#stellarstructure">Numerical Solutions to the Stellar Structure Equations</a></li>	
+    <li><a href="#pappus">Pappus's Theorem</a></li>	
+    <li><a href="#Planck">Planck Quantities</a></li>
+    <li><a href="#analema">Solar Analema</a></li>	
+    <li><a href="#symmetrictop">Symmetric Top in Gravity</a></li>
 </ul>	   
 
 <hr style="height:2px;border-width:0;color:gray;background-color:gray">
 
     
-<h3 align="middle"><a href="Coriolis and Centrifugal Forces.pdf" target="_blank" rel="noopener noreferrer">Coriolis and Centrifugal Forces</a></h3>
+<h3 id="Coriolis" align="middle"><a href="Coriolis and Centrifugal Forces.pdf" target="_blank" rel="noopener noreferrer">Coriolis and Centrifugal Forces</a></h3>
 
 <p>I gave this talk at the Graduate Students of Physics virtual seminar on September 25th, 2020. This was a topic I studied independently over the summer of 2020. It was a rewarding experience, and I was honored to have Dr. Joe Izen, Dr. Xiaoyan Shi, Dr. Amena Khan, Ms. Clara Ann Norman, and my parents in attendance. <a href="Coriolis abstract.pdf" target="_blank" rel="noopener noreferrer">The abstract can be found here</a>.</p>
     
  <hr>   
   
-<h3 align="middle"><a href="Bohr Radius.pdf" target="_blank" rel="noopener noreferrer">Bohr Radius from Variational Principle</a></h3>
+<h3 id="Bohr" align="middle"><a href="Bohr Radius.pdf" target="_blank" rel="noopener noreferrer">Bohr Radius from Variational Principle</a></h3>
    
 <p>This is an elegant way to compute the Bohr radius without looking at the Schrodinger equation. It also confirms the virial theorem for a central inverse-square force. This approach was presented to me first in Dr. Yuri Gartstein's PHYS 4301 Quantum Mechanics 1 course.</p>
     
     
 <hr>    
     
-<h3 align="middle"><a href="Planck_quantities.pdf" target="_blank" rel="noopener noreferrer">Planck Quantities</a></h3>
+<h3 id="Planck" align="middle"><a href="Planck_quantities.pdf" target="_blank" rel="noopener noreferrer">Planck Quantities</a></h3>
 
 
 <p>The Planck quantities provide intuition on the various regimes of physics (classical, quantum, relativistic mechanics). This was the starting point of Dr. Xiaoyan Shi's PHYS 4352 Concepts of Modern Physics course.</p>    
     
 <hr>
     
-<h3 align="middle">Electromagnetic Field and Dual Tensors</h3>  
+<h3 id="Tensors" align="middle">Electromagnetic Field and Dual Tensors</h3>  
     
 <p>I have seen that several electrodynamics texts leave the derivation of the field and dual tensors as an exercise to the reader. I have Lorentz transformed an antisymmetric tensor twice below and have matched the set of transformation rules to previous results from special relativity to arrive at the field and dual tensors. </p>
 
@@ -108,7 +119,7 @@ There are two ways to correspond equations (1)-(6) with (7)-(12) respectively, g
 <hr>
 
 
-<h3 align="middle">Electromagnetism in Tensor Notation</h3>  
+<h3 id="Emagnotation" align="middle">Electromagnetism in Tensor Notation</h3>  
     
 <p>Using the above-found field and dual tensors, Maxwell's four equations in differential form 
     
@@ -163,7 +174,7 @@ is the current density 4-vector.</p>
 
 
 
-<h3 align="middle">Electromagnetism in the Lorenz Gauge</h3>  
+<h3 id="Lorenz" align="middle">Electromagnetism in the Lorenz Gauge</h3>  
     
 <p>We reduced Maxwell's four equations to two tensor equations in the above section. We can do better, reducing the two tensor equations to one equation. Recall from electrostatics that
     
@@ -244,7 +255,7 @@ Griffiths calls the above the "most elegant formulation of Maxwell's equations."
 
 <hr>
 
-<h3 align="middle">Coriolis and Centrifugal Forces</h3>    
+<h3 id="fictitious" align="middle">Coriolis and Centrifugal Forces in the Plane</h3>    
     
 <p>The motion in the reference frame of a mass given some initial velocity on a frictionless, flat, surface rotating at <i>&omega;</i> = 1 rad/s, solved numerically. The Coriolis and centrifugal forces are "fictitious" since they arise from applying Newton's laws to a non-inertial frame; in the inertial frame, the mass will travel in a straight line. The equations of motion and <a href="coreolis and centrifugal effects.py" target="_blank" rel="noopener noreferrer">numerical solution</a> for three different initial velocities are shown below.</p> 
 
@@ -265,7 +276,7 @@ Griffiths calls the above the "most elegant formulation of Maxwell's equations."
  <hr>   
     
     
-<h3 align="middle">Symmetric Top in Gravity</h3>    
+<h3 id="symmetrictop" "align="middle">Symmetric Top in Gravity</h3>    
     
 <p>The motion of a symmetric top (I<sub>1</sub> = I<sub>2</sub> &ne; I<sub>3</sub>) of mass <i>M</i> (center of mass at height <i>h</i>) with tip fixed in gravity <i>g</i> solved using Euler angles and the Lagrangian formulation, assuming there is no acceleration in the <i>&psi;</i> direction. The Lagrangian, equations of motion, and <a href="symmtop.py" target="_blank" rel="noopener noreferrer">numerical solution</a> are shown below.</p> 
 
@@ -279,7 +290,7 @@ Griffiths calls the above the "most elegant formulation of Maxwell's equations."
 <hr>
 
 
-<h3 align="middle">Classical Particle in a Cone</h3>    
+<h3 id="emma" align="middle">Classical Particle in a Cone</h3>    
     
 <p>The motion of a particle subject to gravity <i>g</i> inside of a cone of opening angle <i>&alpha;</i>, solved using the Lagrangian formulation. The equations of motion and <a href="code.py" target="_blank" rel="noopener noreferrer">numerical solution</a> are shown below.</p> 
 
@@ -290,7 +301,7 @@ Griffiths calls the above the "most elegant formulation of Maxwell's equations."
 
 <hr>
 
-<h3 align="middle">Cycloid Motion</h3>    
+<h3 id="cycloid" align="middle">Cycloid Motion</h3>    
     
 <p>The motion of a charged particle subject to perpendicular uniform electric and magnetic fields <b>E</b> = E<sub>z</sub> and <b>B</b> = B<sub>x</sub>, solved <a href="cycloid.py" target="_blank" rel="noopener noreferrer">numerically</a>. Amazingly, the particle's average trajectory lies perpendicular to both the electric and magnetic fields.</p> 
 
@@ -301,19 +312,19 @@ Griffiths calls the above the "most elegant formulation of Maxwell's equations."
 
 <hr>
 
-<h3 align="middle"><a href="geometry_2020.html" target="_blank" rel="noopener noreferrer">Pappus's Theorem</a></h3>
+<h3 id="pappus" align="middle"><a href="geometry_2020.html" target="_blank" rel="noopener noreferrer">Pappus's Theorem</a></h3>
 
 <p>This was my end-of-semester project for Dr. Mohammad Akbar's MATH 3321 Geometry course, which I took in the summer of 2020. Pappus's theorem belongs to the field of projective, non-metric geometry, which pre-dates coordinate and analytic geometry. It was a fun project that sharpened my presentation and LaTeX skills. It was also nice to work with fellow physics major Tucker Livingston.</p>
 
 <hr>
 
-<h3 align="middle"><a href="musical_astronomy.pdf" target="_blank" rel="noopener noreferrer">Musical Astronomy</a></h3>
+<h3 id="musicalastronomy" align="middle"><a href="musical_astronomy.pdf" target="_blank" rel="noopener noreferrer">Musical Astronomy</a></h3>
     
 <p>This was a talk I gave at the Graduate Students of Physics seminar in fall 2018. I describe several acoustic phenomena that have macroscopic analogues in the astrophysical world. I am grateful to have had Dr. Joe Izen and Dr. Kaloyan Penev in attendance. I am also grateful to the graduate students for their helpful feedback on my presentation.</p>
 
 <hr>
 
-<h3 align="middle"><a href="stellar_structure_solutions.py" target="_blank" rel="noopener noreferrer">Numerical Solutions to the Stellar Structure Equations</a></h3>
+<h3 id="stellarstructure" align="middle"><a href="stellar_structure_solutions.py" target="_blank" rel="noopener noreferrer">Numerical Solutions to the Stellar Structure Equations</a></h3>
  
 <p>These solutions are not normalized but can be solved for the boundary conditions of any main-sequence star.</p> 
     
@@ -330,20 +341,20 @@ Griffiths calls the above the "most elegant formulation of Maxwell's equations."
  
 <hr>
  
-<h3 align="middle"><a href="analema.pdf" target="_blank" rel="noopener noreferrer">The Solar Analema</a></h3>
+<h3 id="analema" align="middle"><a href="analema.pdf" target="_blank" rel="noopener noreferrer">The Solar Analema</a></h3>
 
 <p>This was my end-of-semester project for Dr. Phil Anderson's PHYS 3380 Astronomy course, which I took in fall 2018. It is amazing to see just how much the sun's angular position deviates as the seasons change.</p>
 
 <hr>
 
-<h3 align="middle"><a href="https://cag170030.github.io/tutoring/" target="_blank" rel="noopener noreferrer">IntelliChoice 2020 Math Camp</a></h3>
+<h3 id="IntelliChoice" align="middle"><a href="https://cag170030.github.io/tutoring/" target="_blank" rel="noopener noreferrer">IntelliChoice 2020 Math Camp</a></h3>
 
 <p>I directed this virtual SAT camp for 97 underpriviledged students in the DFW area. I gave daily lectures and wrote my own homework (all now publicly available), covering most of the high school Algebra I, Algebra II, Geometry, and Pre-Calculus curricula. I was fortunate to have several friends volunteer as tutors. The camp (valued at $297,000) was run free-of-charge, thanks to the support IntelliChoice donors.</p>
 
 
 <hr>
 
-<h3 align="middle"><a href="Gokani_Chirag_AP Statistics Project 3_2016-17.pdf" target="_blank" rel="noopener noreferrer">Benford's Law: Exoplanets</a></h3>
+<h3 id="Benford" align="middle"><a href="Gokani_Chirag_AP Statistics Project 3_2016-17.pdf" target="_blank" rel="noopener noreferrer">Benford's Law: Exoplanets</a></h3>
 
 <p>This was a project I did in 12th grade for Ms. Clara Ann Norman's AP Statistics class.</p> 
 

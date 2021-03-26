@@ -169,7 +169,7 @@ div {
 <img src="echo_fig6(2).PNG" width="319" height="246" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
 <br>
 
-Proceeding with <b>Option 1</b>, we find <i>l<sub>a</sub></i> = 67.78 m, <i>l<sub>b</sub></i> = 40.25 m, <i>l<sub>d</sub></i> = 32.71 m, and <i>l<sub>f</sub></i> = 26.28 m. <i>l<sub>a</sub></i> tells us that the first-order depth of the amphitheater is 67.78 m. We can use the other path lengths to construct a 2D model of the amphitheater's curvature. Considering 45-degree-incidence, for example, three points along the amphitheater wall would be (<i>l<sub>b</sub></i> , 0), ((<i>l<sub>b</sub></i>-<i>l<sub>d</sub></i>) cos 45, <i>l<sub>a</sub></i>/3), and ((<i>l<sub>b</sub></i>-<i>l<sub>d</sub></i>+<i>l<sub>f</sub></i>) cos 45, 2<i>l<sub>a</sub></i>/3):
+Proceeding with the <b>near-field limit</b>, we find <i>l<sub>a</sub></i> = 67.78 m, <i>l<sub>b</sub></i> = 40.25 m, <i>l<sub>d</sub></i> = 32.71 m, and <i>l<sub>f</sub></i> = 26.28 m. <i>l<sub>a</sub></i> tells us that the first-order depth of the amphitheater is 67.78 m. We can use the other path lengths to construct a 2D model of the amphitheater's curvature. Considering 45-degree-incidence, for example, three points along the amphitheater wall would be (<i>l<sub>b</sub></i> , 0), ((<i>l<sub>b</sub></i>-<i>l<sub>d</sub></i>) cos 45, <i>l<sub>a</sub></i>/3), and ((<i>l<sub>b</sub></i>-<i>l<sub>d</sub></i>+<i>l<sub>f</sub></i>) cos 45, 2<i>l<sub>a</sub></i>/3):
 
 <img src="echo_fig8.PNG" width="541" height="317" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
 <br>
@@ -187,10 +187,22 @@ This is a useful parameter that can be used to model the echo and geometry of th
 
 <h3 id="decay">Decay</h3>
     
+We can find the decay factor (measured in dB per echo order) of the canyon by analyzing the intensity of the initial claps and the first-third-order echoes (the fourth order echo was too faint to accurately measure the intensity). The decay factor is average of the slope of the graphs below.
 
+<img src="echo_decay1.PNG" width="412" height="281" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
+<p class="bottom-three" align="middle"><i>Fig. 6.</i> Echo order vs dB for clap 1</p> 
 
-<p></p>
-You can read about the geological history of the Echo Amphitheater <a href="https://www.geocaching.com/geocache/GC652YV_canon-retumbido-echo-amphitheater-earthcache" target="_blank" rel="noopener noreferrer">here</a>
+<img src="echo_decay2.PNG" width="412" height="281" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
+<p class="bottom-three" align="middle"><i>Fig. 7.</i> Echo order vs dB for clap 2</p> 
+
+<img src="echo_decay3.PNG" width="411" height="285" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
+<p class="bottom-three" align="middle"><i>Fig. 8.</i> Echo order vs dB for clap 3.</p> 
+
+<img src="echo_decay4.PNG" width="412" height="281" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
+<p class="bottom-three" align="middle"><i>Fig. 9.</i> Echo order vs dB for clap 4.</p> 
+ 
+
+<p>The decay factor was calculated to be -12.225 dB/echo order. The decay factor is a reflection of the canyon's composition. You can read about the geological history of the Echo Amphitheater <a href="https://www.geocaching.com/geocache/GC652YV_canon-retumbido-echo-amphitheater-earthcache" target="_blank" rel="noopener noreferrer">here</a>.</p>
 
 <hr>    
     
@@ -198,24 +210,26 @@ You can read about the geological history of the Echo Amphitheater <a href="http
  
 In addition to modulating the delay and amplitude of the input signal, and the amphitheater modulates the spectrum, acting as a low-pass filter. This can be seen below:
 
+<br>
+
 <img src="echo_BP1.PNG" width="886" height="293" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
-<p class="bottom-three" align="middle"><i>Fig. </i>. In this plot of clap 1, the waveform and spectrum are plotted side-by-side. The intensity of frequencies is indicated by the red color. Note that the first-order echo is devoid of the 5000-8000 Hz frequencies abundant in the initial clap.</p> 
+<p class="bottom-three" align="middle"><i>Fig. 10</i>. In this plot of clap 1, the waveform and spectrum are plotted side-by-side. The intensity of frequencies is indicated by the red color. Note that the first-order echo is devoid of the 5000-8000 Hz frequencies abundant in the initial clap.</p> 
 
 <p>Since the peak of the initial clap was around 1000 Hz, the bandwidth (BW) is about three octaves:</p>
 
 <img src="echo_BP2.PNG" width="405" height="293" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
-<p class="bottom-three" align="middle"><i>Fig. </i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 1.</p> 
+<p class="bottom-three" align="middle"><i>Fig. 11</i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 1.</p> 
 
 <p>We see a similar ~three octave bandwidth (BW) for claps 2-4:</p>
 
 <img src="echo_BP3.PNG" width="472" height="291" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
-<p class="bottom-three" align="middle"><i>Fig. </i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 2.</p>
+<p class="bottom-three" align="middle"><i>Fig. 12</i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 2.</p>
 
 <img src="echo_BP4.PNG" width="443" height="291" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
-<p class="bottom-three" align="middle"><i>Fig. </i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 3.</p>
+<p class="bottom-three" align="middle"><i>Fig. 13</i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 3.</p>
 
 <img src="echo_BP5.PNG" width="345" height="298" style = "display: block; margin-left: auto; margin-right: auto;"/></td>
-<p class="bottom-three" align="middle"><i>Fig. </i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 4.</p>
+<p class="bottom-three" align="middle"><i>Fig. 14</i>. Zoomed-in spectrum of the initial clap and first-order echo for clap 4.</p>
 
 <p>We can quantify this calculate low-pass effect with the so-called <i>Q</i>-factor:<p>
 
